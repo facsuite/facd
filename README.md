@@ -1,11 +1,6 @@
 facd
 ====
 
-[![Build Status](https://travis-ci.org/Facd/dcrd.png?branch=master)](https://travis-ci.org/Facd/dcrd)
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Facd/dcrd)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Facd/dcrd)](https://goreportcard.com/report/github.com/Facd/dcrd)
-
 ## Facd Overview
 
 Facd is a blockchain-based cryptocurrency with a strong focus on community
