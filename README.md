@@ -7,17 +7,17 @@ Facd is a blockchain-based cryptocurrency with a strong focus on community
 input, open governance, and sustainable funding for development. It utilizes a
 hybrid proof-of-work and proof-of-stake mining system to ensure that a small
 group cannot dominate the flow of transactions or make changes to Facd without
-the input of the community.  A unit of the currency is called a `Facd` (DCR).
+the input of the community.  A unit of the currency is called a `Facd` (FAC).
 
 
 ## Latest Downloads
 
 
-## What is dcrd?
+## What is facd?
 
 facd is a full node implementation of Facd written in Go (golang).
 
-It acts as a fully-validating chain daemon for the Facd cryptocurrency.  dcrd
+It acts as a fully-validating chain daemon for the Facd cryptocurrency.  facd
 maintains the entire past transactional ledger of Facd and allows relaying of
 transactions to other Facd nodes around the world.
 
@@ -28,7 +28,7 @@ The software was originally forked from [btcd](https://github.com/btcsuite/btcd)
 which is a bitcoin full node implementation that is still under active
 development.  To gain the benefit of btcd's ongoing upgrades, including improved
 peer and connection handling, database optimization, and other blockchain
-related technology improvements, dcrd is continuously synced with the btcd
+related technology improvements, facd is continuously synced with the btcd
 codebase.
 
 ## What is a full node?
@@ -46,13 +46,13 @@ of software participating in the Facd peer network. For instance, there are
 and cryptographic proofs they require to function, as well as relay their
 transactions to the rest of the global network.
 
-## Why run dcrd?
+## Why run facd?
 
 As described in the previous section, the Facd cryptocurrency relies on having
 a peer-to-peer network of nodes that fully validate all transactions and blocks
 and then relay them to other full nodes.
 
-Running a full node with dcrd contributes to the overall security of the
+Running a full node with facd contributes to the overall security of the
 network, increases the available paths for transactions and blocks to relay,
 and helps ensure there are an adequate number of nodes available to serve
 lightweight clients, such as Simplified Payment Verification (SPV) wallets.
@@ -62,13 +62,13 @@ users of lightweight clients which could force them to have to rely on
 centralized services that significantly reduce privacy and are vulnerable to
 censorship.
 
-In terms of individual benefits, since dcrd fully validates every block and
+In terms of individual benefits, since facd fully validates every block and
 transaction, it provides the highest security and privacy possible when used in
 conjunction with a wallet that also supports directly connecting to it in full
 validation mode, such as [dcrwallet (CLI)](https://github.com/Facd/dcrwallet)
 and [Facditon (GUI)](https://github.com/Facd/Facditon).
 
-## Minimum Recommended Specifications (dcrd only)
+## Minimum Recommended Specifications (facd only)
 
 * 10 GB disk space (as of September 2018, increases over time)
 * 1GB memory (RAM)
@@ -80,7 +80,7 @@ and [Facditon (GUI)](https://github.com/Facd/Facditon).
 ## Getting Started
 
 So, you've decided to help the network by running a full node.  Great!  Running
-dcrd is simple.  All you need to do is install dcrd on a machine that is
+facd is simple.  All you need to do is install facd on a machine that is
 connected to the internet and meets the minimum recommended specifications, and
 launch it.
 
@@ -109,4 +109,4 @@ is used for this project.
 
 ## License
 
-dcrd is licensed under the [copyfree](http://copyfree.org) ISC License.
+facd is licensed under the [copyfree](http://copyfree.org) ISC License.
